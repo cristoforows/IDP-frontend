@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+}
+
+
+
+.FilterContainer {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.FilterTitle {
+    font-family: var(--sm-font);
+    font-size:20px;
+}
+
+.DropdownContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centerrr{
+    display:flex;
+    justify-content: center;
+}
